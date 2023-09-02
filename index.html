@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Rubik+Pixels&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <div class="header">
+          <img
+            class="header__img"
+            src="https://i.pinimg.com/564x/ea/72/ae/ea72aec07c9050494dca83492077da5e.jpg"
+            alt=""
+          />
+          <button class="audio" id="playPauseButton">Play</button>
+          <div class="header__img-text">
+            <h1 data-aos="fade-right" data-aos-delay="100" class="twoJash">
+              Урматуу коногубуз сиздерди <br />
+              сүйүктүү кызыбыз
+            </h1>
+            <h1 data-aos="flip-left" data-aos-delay="500" class="nameKyz">
+              Айдайдын
+            </h1>
+          </div>
+          <p data-aos="fade-left" data-aos-delay="400" class="p">
+            Кыз узатуу тоюна арналган кадырлуу коногубуз болууга чакырабыз
+          </p>
+          <img width="100px" src="./img/2.png" alt="" />
+
+          <div data-aos="fade-right" class="dataParent">
+            <span class="data">20.08.2002жыл</span>
+            <br />
+            <span class="time">саат 18:00</span>
+          </div>
+          <div data-aos="fade-right" class="restoranParent">
+            <h1 class="restoranName">RestoranName</h1>
+            <i class="restoranAddres">Lorem ipsum dolor sit amet.</i>
+            <a
+              target="_blank"
+              href="https://2gis.kg/bishkek/branches/70000001019370244/firm/70000001050253876/74.636375%2C42.843577?m=74.598491%2C42.872702%2F11.7"
+              ><img
+                class="twogis"
+                src="https://asset.brandfetch.io/idXRHyP9tK/idAQzV-xiR.png?updated=1688169341049"
+                alt=""
+            /></a>
+          </div>
+          <div data-aos="fade-right" class="touEsi">
+            <b>Той Ээлери:</b>
+            <h2 class="touEsiName">Асад Хкм hkm</h2>
+          </div>
+          <!-- Где-то в вашем HTML -->
+          <div data-aos="fade-right" class="swiper-container">
+            <div class="swiper-wrapper">
+              <img class="swiper-slide" src="./img/ft1.jpg" alt="" /><img
+                class="swiper-slide"
+                src="./img/ft2.jpg"
+                alt=""
+              /><img class="swiper-slide" src="./img/ft3.jpg" alt="" />
+            </div>
+          </div>
+          <img width="200px" src="./img/гул.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div data-aos="fade-right" id="form">
+      <div class="container">
+        <div class="form">
+          <h1>Тойго келе аласызбы?</h1>
+
+          <div class="div">
+            <input type="radio" id="ooba" name="choice" />
+            <label for="ooba">албетте</label>
+          </div>
+          <div class="div">
+            <input type="radio" id="jok" name="choice" />
+            <label for="jok">тилеке каршы жок</label>
+          </div>
+          <label for="name">аты жонунуз:</label>
+          <input class="getName" type="text" id="name" />
+          <button class="addSubmit">жиберуу</button>
+        </div>
+      </div>
+    </div>
+    <!-- Аудио для музыки -->
+    <audio id="backgroundMusic" src="./audio/mp.mp3" loop></audio>
+
+    <!-- script -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
